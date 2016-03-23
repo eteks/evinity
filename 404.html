@@ -33,7 +33,10 @@
         <!-- Custom css -->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
-
+		
+		<!-- Jquery-ui -->
+		<link rel="stylesheet" href="css/jquery-ui.css" />
+		
         <!-- Favicons -->
         <!-- <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-precomposed.png"> -->
          <link rel="icon" href="img/fav.png"/>  
@@ -170,84 +173,85 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-9 frequent_questions">
+                            <div id="accordion">
+                             <div class="col-md-6 col-sm-9 frequent_questions">
                                 <h3 class="widget_title">FAQ's</h3>
                                 <ul>
                                     <li>
-                                        <h3>Q: How will big data impact the industry?<a name="test"></a></h3>
-                                        <div>
+                                        <h3 class="accordianheader">Q: How will big data impact the industry?<a name="test"></a></h3>
+                                        <div class="accordianbody">
                                             <p>
                                                 A : According to Gartner Inc., big data technology will grow radically over the next few years. Gartner research predicts that by 2015, 4.4 million IT jobs will have been created to staff big data initiatives. Even now, a Gartner survey has discovered that 40% of almost 500 IT executives have invested or will invest in big data technology.
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <h3>Q: Why is Hadoop popular?</h3>
-                                        <div>
+                                        <h3 class="accordianheader">Q: Why is Hadoop popular?</h3>
+                                        <div class="accordianbody">
                                             <p>
                                                 A : Hadoop's popularity is partly due to the fact that it is used by some of the world's largest Internet businesses to analyze unstructured data.Hadoop enables distributed applications to handle data volumes in the order of thousands of exabytes.
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <h3>Q: Can I manage the Cloud Big Data service through my Cloud Control Panel?</h3>
-                                        <div>
+                                        <h3 class="accordianheader">Q: Can I manage the Cloud Big Data service through my Cloud Control Panel?</h3>
+                                        <div class="accordianbody">
                                             <p>
                                                 A : Yes, you can manage your Cloud Big Data service through the Rackspace Cloud Control Panel, as well as by using a RESTful API.
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <h3>Q: What will I be able to do upon completing the Big Data Specialization?</h3>
-                                        <div>
+                                        <h3 class="accordianheader">Q: What will I be able to do upon completing the Big Data Specialization?</h3>
+                                        <div class="accordianbody">
                                             <p>
                                                 A : You will be able to process, analyze, and interpret massive and complex data using common Big Data technologies, including Splunk and Apache Hadoop. You will have hands-on experience building data tools, visualizations, and dashboards.every company have a lot of openings with that bigdata knowledge you can place anywhere.
                                             </p>
                                         </div>
                                     </li>
                                     <li>
-                                        <h3>Q: Is there an easy way to migrate data from Hadoop into a relational database?</h3>
-                                        <div>
+                                        <h3 class="accordianheader">Q: Is there an easy way to migrate data from Hadoop into a relational database?</h3>
+                                        <div class="accordianbody">
                                             <p>
                                                 A : The Hadoop JDBC driver can be used to pull data out of Hadoop and then use the DataDirect JDBC Driverto bulk load the data into Oracle, DB2, SQL Server, Sybase, and other relational databases. DataDirect bulk load provides an optimized, scalable option for efficiently moving data. Throughput is accelerated, and performance is maximized.
                                             </p>
                                         </div>
                                     </li>
-                                    <li>
-                                    	<h3>Q: Is there a certain skill set that is necessary for managing big data?</h3>
-                                    	<div>
+    								<li>
+                                    	<h3 class="accordianheader">Q: Is there a certain skill set that is necessary for managing big data?</h3>
+                                    	<div class="accordianbody">
                                     		<p>
                                     			A : Data scientist is an emerging role that will likely be more and more in demand as big data continues to gain momentum. This is a difficult skill set to find because it requires knowledge of new technologies such as Hadoop and Cassandra, familiaritty with the domain where the data resides, and creative analytical and problem-solving abilities and you have to put more effort for your prosperous future.
                                     		</p>
                                     	</div>
                                     </li>
                                     <li>
-                                    	<h3>Q: How much Java do I need to know for Big a data?</h3>
-                                    	<div>
+                                    	<h3 class="accordianheader">Q: How much Java do I need to know for Big a data?</h3>
+                                    	<div class="accordianbody">
                                     		<p>
                                     			A : Knowledge of Java or OOPS programming languages is preferable but not mandatory. With us you can put some effort and its more than enough.
                                     		</p>
                                     	</div>
                                     </li>
                                     <li>
-                                    	<h3>Q: Will I get a chance to work with huge datasets?</h3>
-                                    	<div>
+                                    	<h3 class="accordianheader">Q: Will I get a chance to work with huge datasets?</h3>
+                                    	<div class="accordianbody">
                                     		<p>
                                     			A :  You will work on multiple case studies as part of the course. The case studies will involve hands-on work with huge datasets.
                                     		</p>
                                     	</div>
                                     </li>
                                     <li>
-                                    	<h3>Q: Do I need to know R?</h3>
-                                    	<div>
+                                    	<h3 class="accordianheader">Q: Do I need to know R?</h3>
+                                    	<div class="accordianbody">
                                     		<p>
                                     			A : Knowledge of basic Excel is preferable but not mandatory. With us you can put some effort its is more than enough because we provide you knowledge for R from scratch.
                                     		</p>
                                     	</div>
                                     </li>
-    
                                 </ul>
                             </div>
+							</div><!--accordion-->
 
                             <!-- <div class="col-md-3 col-sm-6">
                                 <div class="single_footer_widget">
@@ -339,6 +343,8 @@
         <![endif]-->	    
 
         <!-- jQuery main script -->
+        <script src="js/gistfile1.js"></script>
+        <script src="js/jquery-ui.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/main.js"></script>
     </body>

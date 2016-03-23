@@ -426,6 +426,7 @@ Key To Success CSS
     line-height: 32px;
     padding:20px 0;
     margin: 0px 0px 0px;
+    font-family: Arial;
 }
 .key2seccess_txt a{
     color: #fff;
@@ -484,8 +485,8 @@ Our Courses CSS
     margin-bottom: 20px;
 }
 .sing_course_txt p{
-    color: #7e7e7e;
-    font-family: "Gotham";
+    color: #565656;
+    font-family: Arial;
     font-size: 15px;
     font-weight: 200;
     line-height: 25px;
@@ -587,21 +588,22 @@ Why Choose Us CSS
 .single_why_choose h3{
     font-size: 18px;
     margin-top: 15px;
+    font-family: Arial;
 }
 .why_choose_us_txt ul{
     list-style: inside none disc !important;
     padding: 0 0 0 23px;
-    color: #7e7e7e;
+    color: #565656;
     font-size: 15px;
     line-height: 29px;
-    font-family:Gotham;
+    font-family: Arial;
     font-weight: 200;
 }
 .our_degrees_txt p{
 	color: #7e7e7e;
     font-size: 15px;
     line-height: 29px;
-    font-family:Gotham;
+    font-family: Arial;
     font-weight: 200;
     text-align : justify;
 }
@@ -835,6 +837,7 @@ Footer CSS
 .footer_widgets{
     padding-top: 40px;
     color: #efefef;
+    font-family: Arial;
 }
 .widget_title{
     font-size: 15px;
@@ -1186,10 +1189,9 @@ Upcoming Events CSS
 Latest From Our Blog CSS
 -----------------------------------------------------------*/
 .single_blog_post_box{
-    border: 1px solid #ededed;
-    box-shadow: -5px 5px 0 #f0f0f0;
-    padding: 6px;
+    border: 1px solid #e2e2e2;
     margin-top: 50px;
+    padding: 6px;
 }
 .blog_post_photo{
     position: relative;
@@ -1485,6 +1487,7 @@ Contact Page CSS
     font-size: 12px;
     text-transform: uppercase;
     line-height: 24px;
+    font-family: Arial;
 }
 .contact_info ul li a{
     color: #666666;
@@ -1541,6 +1544,7 @@ Contact Page CSS
     font-size: 13px;
     color: #777777;
     margin-bottom: 10px;
+    font-family: Arial;
 }
 .email_form label span{
     color: #ff3d00;
@@ -1591,7 +1595,7 @@ Latest News Page CSS
     line-height: 32px;
     text-align: justify;
     color: #7e7e7e;
-    font-family: Gotham;
+    font-family: Arial;
     font-weight: 200;
 }
 .latest_news_area .blog_post_heading, .single_post_area .blog_post_heading{
@@ -1893,7 +1897,7 @@ Right Sidebar CSS
     background: #46b0e4;
 }
 .social_share_logo_right .col-md-4:nth-child(3) .single_social_share{
-    background: #3b59a1;
+    background: #0177b5;
 }
 .single_social_share span{
     margin-top: 20px;
@@ -2190,12 +2194,14 @@ Only For IE CSS
 .div-roles p {
     display: none;
     color: #6a9b16;
+    font-size: 19px;
+    font-family: "Libre Baskerville",serif;
 }
 .div-roles{
-	border: 1px solid #ededed;
-    box-shadow: -5px 5px 0 #f0f0f0;
-    height: 80px;
-    padding: 15px 0;
+	border: 1px solid #afcb39;
+    /*box-shadow: -5px 5px 0 #f0f0f0;*/
+    height: 95px;
+    padding: 25px 0;
     text-align: center;
 }
 
@@ -2221,12 +2227,15 @@ Only For IE CSS
 
 .showanwer { background: rgba(0, 0, 0, 0) url("img/down_icon.png") no-repeat scroll 0 0 / 13px auto !important; }
 .frequent_questions p{
-    width:565px;
-    font-family: Arial; font-size:14px;     font-weight:normal;
-    color:#fff;
-    padding:0px 0px 0px 45px; text-align:justify;
-    line-height:20px;
-    cursor:inherit;
+    color: #fff;
+    cursor: inherit;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0 0 0 15px;
+    text-align: justify;
+    width: 524px;
 }
 .contact_us_content p {
     width:535px;
@@ -2376,10 +2385,12 @@ Only For IE CSS
 .blog_hover:hover {
     background: #fdf5da none repeat scroll 0 0;
     color: #424242;
+    box-shadow: -5px 5px 0 #d0c7a8;
 }
 .widget_bg {
     background: rgba(0, 0, 0, 0) url("img/bg_call_to_action.png") no-repeat scroll 0 0 / 100% 100%;
     padding: 40px 20px 0;
+    cursor: pointer;
 }
 .dotted_bg {
     background: rgba(0, 0, 0, 0) url("img/bg_sing_practice.png") repeat scroll 0 0;
@@ -2454,4 +2465,16 @@ Only For IE CSS
 	height: 91px;
     width: 91px;
 }
-
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background: transparent !important;
+	border:medium none !important;
+}
+.ui-widget-content{
+	background: transparent !important;
+	border:medium none !important;
+}
+.lat_news_right {
+    padding: 0 !important;
+    white-space: normal;
+    width: 265px;
+ }
